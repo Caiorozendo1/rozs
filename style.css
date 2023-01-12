@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family= Roboto:ital,wght@1,100 & display família= Roboto:ital,wght@0,300;0,400;0,500;1,100 & swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+:root{
+    --cor1: black;
+    --cor2:#2E2A39;
+    --fontpadrao: 'Roboto', sans-serif;
+}
+/*parte de cima*/
+#cima-titulo{
+    background-color: var(--cor1);
+    color: white;
+    height: 50px;
+}
+#cima-titulo > h3 {
+    text-align: center;
+    padding: 15px;
+    font-family: var(--fontpadrao);
+    font-size: 16px;
+}
+/*cabeçalho*/
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    margin-top: 65px;
+    margin-left: -80px;
+    
+}
+.one:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.three{
+    margin-top: 65px;
+    margin-right: -80px;   
+}
+.two:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.three:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/*menu*/
+    ul{
+        text-align: center;
+        line-height: 18px;
+    }
+     li {
+        display: inline-block;
+        margin: 10px;
+        
+    }
+    a {
+        text-decoration: none;
+        color: var(--cor2);
+        font-family: var(--fontpadrao);
+        font-size: 13px;
+    }
+    a:hover{
+        border-bottom: 1px solid black;
+        transition: 0.2s;
+    }
+    #inicio {
+        border-bottom: 1px solid black;
+    }
+/*banner*/
+#banner {
+    
+}
+/*produtos*/
+
+/*footer*/
+footer {
+    background-color: black;
+    color: white;
+    font-family: var(--fontpadrao);
+    padding: 80px;
+    height: 400px;
+}
+footer > h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container-rodape{
+    display: flex;
+    justify-content: space-around;
+}
+.nossa{
+    background-color: blueviolet;
+    margin-right: 10px;
+    ]margin-top: 10px;
+}
+.container-rodape  #p1{
+    padding-top: 28px;
+}
+.servicos{
+    background-color: rgb(58, 226, 43);
+    margin-right: 10px;
+}
+.cate{
+    background-color: rgb(226, 43, 43);
+    margin-right: 10px;
+}
+.cont{
+    background-color: rgb(226, 86, 43);
+}
+
+
